@@ -1,5 +1,5 @@
 const COLORS: Record<string, [number, number, number]> = {
-    cyan: [34, 211, 238],
+    cyan: [46, 157, 120],
     teal: [32, 201, 151],
     green: [64, 192, 87],
     lime: [130, 201, 30],

@@ -22,8 +22,25 @@ export const theme = createTheme({
     fontSmoothing: true,
     focusRing: 'never',
     white: '#ffffff',
-    black: '#24292f',
+    black: '#1a2433',
     colors: {
+        // FRService: фирменная зелёная лестница вместо стандартного cyan.
+        // Имя ключа намеренно оставлено 'cyan' — в коде страницы больше 15 мест
+        // с color="cyan" и var(--mantine-color-cyan-N); так они все
+        // перекрашиваются сами, а мердж с апстримом остаётся чистым.
+        cyan: [
+            '#eaf8f3',
+            '#cfefe3',
+            '#abe2ce',
+            '#86d3b8',
+            '#5fc2a0',
+            '#41b18b',
+            '#2e9d78',
+            '#268666',
+            '#1f7c5c',
+            '#175f47'
+        ],
+
         dark: [
             '#c9d1d9',
             '#b1bac4',
@@ -86,7 +103,7 @@ export const theme = createTheme({
             '#471700'
         ]
     },
-    primaryShade: 8,
+    primaryShade: { light: 6, dark: 8 },
     primaryColor: 'cyan',
     autoContrast: true,
     luminanceThreshold: 0.3,

@@ -1,7 +1,8 @@
 .root {
     position: relative;
-    background: rgba(255, 255, 255, 0.02);
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: var(--frs-surface);
+    border: 1px solid var(--frs-border);
+    box-shadow: var(--frs-shadow-sm);
     overflow: hidden;
     transition:
         background 0.3s ease,
@@ -10,8 +11,8 @@
 }
 
 .root:hover {
-    border-color: rgba(34, 211, 238, 0.3);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    border-color: var(--frs-accent-border);
+    box-shadow: 0 20px 40px rgba(27, 61, 110, 0.12);
 }
 
 .root::before {

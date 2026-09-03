@@ -86,7 +86,7 @@ export const MainPageComponent = ({ isMobile, platform }: IMainPageComponentProp
                                 <RemnawaveLogo c="cyan" size={32} />
                             )}
                             <Title
-                                c={hasCustomLogo ? 'white' : 'cyan'}
+                                c={hasCustomLogo ? 'var(--frs-text)' : 'cyan'}
                                 fw={700}
                                 order={4}
                                 size="lg"

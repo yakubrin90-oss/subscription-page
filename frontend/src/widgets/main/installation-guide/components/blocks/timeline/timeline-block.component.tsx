@@ -42,7 +42,7 @@ export const TimelineBlockRenderer = ({
                         key={index}
                         title={
                             <Text
-                                c="white"
+                                c="var(--frs-text)"
                                 dangerouslySetInnerHTML={{
                                     __html: getLocalizedText(block.title, currentLang)
                                 }}
