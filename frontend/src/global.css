@@ -13,6 +13,8 @@
     --frs-shadow: 0 20px 40px rgba(27, 61, 110, 0.1);
     --frs-shadow-sm: 0 2px 8px rgba(27, 61, 110, 0.06);
     --frs-grid: rgba(27, 61, 110, 0.045);
+    --frs-tint: linear-gradient(135deg, rgba(46, 157, 120, 0.1) 0%, rgba(46, 157, 120, 0.035) 100%);
+    --frs-tint-border: rgba(46, 157, 120, 0.2);
 }
 
 html,

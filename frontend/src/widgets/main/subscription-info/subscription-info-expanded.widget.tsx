@@ -113,7 +113,7 @@ export const SubscriptionInfoExpandedWidget = ({ isMobile }: IProps) => {
 
                 <SimpleGrid cols={{ base: 2, xs: 2, sm: 2 }} spacing="xs" verticalSpacing="xs">
                     <InfoBlockShared
-                        color="blue"
+                        color="cyan"
                         icon={<IconUserScan size={16} />}
                         title={t(baseTranslations.name)}
                         value={user.username}
@@ -137,14 +137,14 @@ export const SubscriptionInfoExpandedWidget = ({ isMobile }: IProps) => {
                     />
 
                     <InfoBlockShared
-                        color="red"
+                        color="cyan"
                         icon={<IconCalendar size={16} />}
                         title={t(baseTranslations.expires)}
                         value={formatDate(user.expiresAt, currentLang, baseTranslations)}
                     />
 
                     <InfoBlockShared
-                        color="yellow"
+                        color="cyan"
                         icon={<IconArrowsUpDown size={16} />}
                         title={t(baseTranslations.bandwidth)}
                         value={`${user.trafficUsed} / ${user.trafficLimit === '0' ? '∞' : user.trafficLimit}`}

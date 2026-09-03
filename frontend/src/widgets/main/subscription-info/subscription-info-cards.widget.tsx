@@ -82,7 +82,7 @@ export const SubscriptionInfoCardsWidget = ({ isMobile: _ }: IProps) => {
     return (
         <SimpleGrid cols={{ base: 1, xs: 1, sm: 2 }} spacing="xs" verticalSpacing="xs">
             <CardItem
-                color="blue"
+                color="cyan"
                 icon={<IconUserScan size={18} />}
                 label={t(baseTranslations.name)}
                 value={user.username}
@@ -96,7 +96,7 @@ export const SubscriptionInfoCardsWidget = ({ isMobile: _ }: IProps) => {
             />
 
             <CardItem
-                color="orange"
+                color="cyan"
                 icon={<IconCalendar size={18} />}
                 label={t(baseTranslations.expires)}
                 value={formatDate(user.expiresAt, currentLang, baseTranslations)}
